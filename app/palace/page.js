@@ -1,0 +1,5 @@
+import EmberCard from "../EmberCard";
+
+export default function Page() {
+  return <EmberCard bg="/palace-bg.jpg" seal="glow" />;
+}
