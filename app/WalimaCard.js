@@ -46,7 +46,7 @@ const COVER_BLOOM = `
   <div class="cover-card">
     <div class="moon"></div>
     <div class="kicker">You are invited to the Walima of</div>
-    <div class="who gold-text"><span class="ln">Anas Hussain</span><span class="amp">&amp;</span><span class="ln">Aiman Farrukh</span></div>
+    <div class="who gold-text"><span class="ln">Ammad Arif</span><span class="amp">&amp;</span><span class="ln">Aiza Farooq</span></div>
     <div class="urdu">انس حسین &nbsp;&amp;&nbsp; ایمن فرخ</div>
     <button class="openbtn" id="openBtn"><span class="dot"></span> Open Invitation</button>
     <div class="tiny">Tap to open</div>
@@ -61,7 +61,7 @@ export const COVER_ENV = `
       <div class="env-flap"></div>
       <button class="env-seal" id="openBtn" aria-label="Open the invitation">A<span>&amp;</span>A</button>
     </div>
-    <div class="env-title gold-text">Anas Hussain &amp; Aiman Farrukh</div>
+    <div class="env-title gold-text">Ammad Arif &amp; Aiza Farooq</div>
     <div class="tiny">Tap the seal to open</div>
   </div>
 </div>
@@ -79,16 +79,16 @@ export const INVITATION = `
       <div class="kicker">Walima Reception</div>
       <p class="invite-line">With the blessings of Allah, we joyfully request the honour of your presence at the Walima of</p>
       <div class="names">
-        <div class="name gold-text">Anas Hussain</div>
+        <div class="name gold-text">Ammad Arif</div>
         <span class="amp">&amp;</span>
-        <div class="name gold-text">Aiman Farrukh</div>
+        <div class="name gold-text">Aiza Farooq</div>
       </div>
-      <div class="urdu-names">انس حسین &nbsp;&amp;&nbsp; ایمن فرخ</div>
+      <div class="urdu-names">عماد عارف &nbsp;&amp;&nbsp; عائزہ فاروق</div>
     </section>
     <svg class="flourish reveal"><use href="#flr"/></svg>
     <section class="reveal">
       <div class="kicker" id="cdKicker">Save the Date</div>
-      <div class="date-big gold-text">Sunday &middot; 23 August 2026</div>
+      <div class="date-big gold-text">Friday &middot; 30 October 2026</div>
       <div class="count" id="count" aria-label="Countdown to the wedding">
         <div class="cbox"><div class="cnum" id="dd">00</div><div class="clab">Days</div></div>
         <div class="cbox"><div class="cnum" id="hh">00</div><div class="clab">Hours</div></div>
@@ -110,13 +110,13 @@ export const INVITATION = `
         <span class="corner c3"></span><span class="corner c4"></span>
         <div>
           <div class="detail-lab">Time</div>
-          <div class="detail-val" id="timeVal">8:30 PM sharp</div>
+          <div class="detail-val" id="timeVal">04:00 PM sharp</div>
         </div>
         <svg class="flourish"><use href="#flr"/></svg>
         <div>
           <div class="detail-lab">Venue</div>
-          <div class="detail-val" id="venueName">Four Seasons Banquet Hall</div>
-          <div class="detail-val" id="venueAddr" style="font-size:16px;color:var(--muted)">Lawn B, Rashid Minhas Road (near Millennium Mall)</div>
+          <div class="detail-val" id="venueName">The Lounge</div>
+          <div class="detail-val" id="venueAddr" style="font-size:16px;color:var(--muted)">B-99, 4th Floor and Rooftop, Block H, North Nazimabad Town, Karachi</div>
         </div>
         <div class="btns">
           <a class="btn" id="mapBtn" href="https://maps.app.goo.gl/w89sGXJmNiLywHvM6" target="_blank" rel="noopener">◈ View on Map</a>
@@ -317,8 +317,8 @@ export default function WalimaCard({ opening }) {
     if (cover) cover.addEventListener("click", coverClick);
     if (muteBtn) muteBtn.addEventListener("click", toggleMute);
 
-    const target = new Date("2026-08-23T20:30:00+05:00").getTime();
-    const over = new Date("2026-08-24T00:00:00+05:00").getTime();
+    const target = new Date("2026-10-30T16:00:00+05:00").getTime();
+    const over = new Date("2026-10-30T22:00:00+05:00").getTime();
     const pad = (x) => (x < 10 ? "0" : "") + x;
     const set = (id, v) => {
       const el = document.getElementById(id);
@@ -362,12 +362,12 @@ export default function WalimaCard({ opening }) {
 
     const calBtn = document.getElementById("calBtn");
     if (calBtn) {
-      const text = encodeURIComponent("Walima of Anas & Aiman");
+      const text = encodeURIComponent("Nikkah of Ammad & Aiza");
       const details = encodeURIComponent(
-        "With the blessings of Allah, you are warmly invited to the Walima reception."
+        "With the blessings of Allah, you are warmly invited to the Nikkah ceremony."
       );
-      const location = encodeURIComponent("Four Seasons Banquet Hall, Lawn B, Rashid Minhas Road, near Millennium Mall");
-      const dates = "20260823T153000Z/20260823T183000Z";
+      const location = encodeURIComponent("B-99, 4th Floor and Rooftop, Block H, North Nazimabad Town, Karachi");
+      const dates = "20261030T110000Z/20261030T150000Z";
       calBtn.setAttribute(
         "href",
         "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" +
