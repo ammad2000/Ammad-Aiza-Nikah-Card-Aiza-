@@ -45,7 +45,7 @@ const COVER_BLOOM = `
 <div class="cover cover--bloom" id="cover">
   <div class="cover-card">
     <div class="moon"></div>
-    <div class="kicker">You are invited to the Walima of</div>
+    <div class="kicker">You are invited to the Nikah of</div>
     <div class="who gold-text"><span class="ln">Ammad Arif</span><span class="amp">&amp;</span><span class="ln">Aiza Farooq</span></div>
     <div class="urdu">انس حسین &nbsp;&amp;&nbsp; ایمن فرخ</div>
     <button class="openbtn" id="openBtn"><span class="dot"></span> Open Invitation</button>
@@ -76,8 +76,8 @@ export const INVITATION = `
     </section>
     <svg class="flourish reveal"><use href="#flr"/></svg>
     <section class="reveal">
-      <div class="kicker">Walima Reception</div>
-      <p class="invite-line">With the blessings of Allah, we joyfully request the honour of your presence at the Walima of</p>
+      <div class="kicker">Nikah Ceremony</div>
+      <p class="invite-line">With the blessings of Allah, we joyfully request the honour of your presence at the Nikah of</p>
       <div class="names">
         <div class="name gold-text">Ammad Arif</div>
         <span class="amp">&amp;</span>
@@ -173,7 +173,7 @@ export const SCROLL_HINT = `
 </div>
 `;
 
-export default function WalimaCard({ opening }) {
+export default function EmberCard({ opening }) {
   useEffect(() => {
     const box = document.getElementById("stars");
     if (box && !box.childElementCount) {
