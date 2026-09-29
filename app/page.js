@@ -43,7 +43,7 @@ const MARKUP = `
   <div class="cover-card">
     <div class="moon"></div>
     <div class="kicker">You are invited to the Walima of</div>
-    <div class="who gold-text"><span class="ln">Anas Hussain</span><span class="amp">&amp;</span><span class="ln">Aiman Farrukh</span></div>
+    <div class="who gold-text"><span class="ln">Ammad Arif</span><span class="amp">&amp;</span><span class="ln">Aiza Farooq</span></div>
     <div class="urdu">انس حسین &nbsp;&amp;&nbsp; ایمن فرخ</div>
     <button class="openbtn" id="openBtn"><span class="dot"></span> Open Invitation</button>
     <div class="tiny">Tap to open</div>
@@ -64,9 +64,9 @@ const MARKUP = `
       <div class="kicker">Walima Reception</div>
       <p class="invite-line">With the blessings of Allah, we joyfully request the honour of your presence at the Walima of</p>
       <div class="names">
-        <div class="name gold-text">Anas Hussain</div>
+        <div class="name gold-text">Ammad Arif</div>
         <span class="amp">&amp;</span>
-        <div class="name gold-text">Aiman Farrukh</div>
+        <div class="name gold-text">Aiza Farooq</div>
       </div>
       <div class="urdu-names">انس حسین &nbsp;&amp;&nbsp; ایمن فرخ</div>
     </section>
