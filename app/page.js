@@ -104,7 +104,7 @@ const MARKUP = `
         <div>
           <div class="detail-lab">Venue</div>
           <div class="detail-val" id="venueName">The Lounge</div>
-          <div class="detail-val" id="venueAddr" style="font-size:16px;color:var(--muted)">Lawn B, Rashid Minhas Road (near Millennium Mall)</div>
+          <div class="detail-val" id="venueAddr" style="font-size:16px;color:var(--muted)">B-99, 4th Floor and Rooftop, Block H, North Nazimabad Town, Karachi</div>
         </div>
         <div class="btns">
           <a class="btn" id="mapBtn" href="https://share.google/lzaYLlUgiovLOl9XC" target="_blank" rel="noopener">◈ View on Map</a>
@@ -146,7 +146,7 @@ const MARKUP = `
 
     <footer class="reveal">
       <div class="monogram">A&nbsp;&amp;&nbsp;A</div>
-      <div class="family">With love, from the Hussain Family</div>
+      <div class="family">With love, from the Family</div>
     </footer>
 
   </div>
