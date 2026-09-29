@@ -1,9 +1,9 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Walima of Anas & Aiman",
+  title: "Nikah of Ammad & Aiza",
   description:
-    "With the blessings of Allah, you are invited to the Walima of Anas Hussain and Aiman Farrukh.",
+    "With the blessings of Allah, you are invited to the Nikah of Ammad Arif and Aiza Farooq.",
   formatDetection: { telephone: false, email: false, address: false },
 };
 
