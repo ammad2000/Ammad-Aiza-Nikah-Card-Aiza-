@@ -212,11 +212,11 @@ export default function EmberCard({ bg = "/ember-bg.jpg", seal = "plain" }) {
 
     const calBtn = document.getElementById("calBtn");
     if (calBtn) {
-      const text = encodeURIComponent("Valima of Ammad & Aiza");
+      const text = encodeURIComponent("Nikah of Ammad & Aiza");
       const details = encodeURIComponent(
-        "With the blessings of Allah, you are warmly invited to the Walima reception."
+        "With the blessings of Allah, you are warmly invited to the Nikah ceremony."
       );
-      const location = encodeURIComponent("Four Seasons Banquet Hall, Lawn B, Rashid Minhas Road, near Millennium Mall");
+      const location = encodeURIComponent("The Lounge, Rooftop, Karachi");
       const dates = "20261030T110000Z/20261030T150000Z";
       calBtn.setAttribute(
         "href",
