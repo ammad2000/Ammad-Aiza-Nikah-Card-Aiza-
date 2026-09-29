@@ -49,7 +49,7 @@ const COVER_ENV_GLOW = `
       <div class="env-flap"></div>
       <button class="env-seal" id="openBtn" aria-label="Open the invitation">A<span>&amp;</span>A</button>
     </div>
-    <div class="env-title gold-text">Anas Hussain &amp; Aiman Farrukh</div>
+    <div class="env-title gold-text">Ammad Arif &amp; Aiza Farooq</div>
     <div class="tiny">Tap the seal to open</div>
   </div>
 </div>
@@ -167,8 +167,8 @@ export default function EmberCard({ bg = "/ember-bg.jpg", seal = "plain" }) {
     if (cover) cover.addEventListener("click", coverClick);
     if (muteBtn) muteBtn.addEventListener("click", toggleMute);
 
-    const target = new Date("2026-08-23T20:30:00+05:00").getTime();
-    const over = new Date("2026-08-24T00:00:00+05:00").getTime();
+    const target = new Date("2026-10-30T16:00:00+05:00").getTime();
+    const over = new Date("2026-10-30T20:00:00+05:00").getTime();
     const pad = (x) => (x < 10 ? "0" : "") + x;
     const set = (id, v) => {
       const el = document.getElementById(id);
@@ -212,12 +212,12 @@ export default function EmberCard({ bg = "/ember-bg.jpg", seal = "plain" }) {
 
     const calBtn = document.getElementById("calBtn");
     if (calBtn) {
-      const text = encodeURIComponent("Walima of Anas & Aiman");
+      const text = encodeURIComponent("Valima of Ammad & Aiza");
       const details = encodeURIComponent(
         "With the blessings of Allah, you are warmly invited to the Walima reception."
       );
       const location = encodeURIComponent("Four Seasons Banquet Hall, Lawn B, Rashid Minhas Road, near Millennium Mall");
-      const dates = "20260823T153000Z/20260823T183000Z";
+      const dates = "20261030T110000Z/20261030T150000Z";
       calBtn.setAttribute(
         "href",
         "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" +
