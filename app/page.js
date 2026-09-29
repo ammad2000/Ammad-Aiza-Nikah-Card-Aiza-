@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { SCROLL_HINT } from "./WalimaCard";
+import { SCROLL_HINT } from "./EmberCard";
 
 const MARKUP = `
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
