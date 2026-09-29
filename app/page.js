@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { SCROLL_HINT } from "./WalimaCard";
+import { SCROLL_HINT } from "./NikahCard";
 
 const MARKUP = `
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -42,9 +42,9 @@ const MARKUP = `
 <div class="cover" id="cover">
   <div class="cover-card">
     <div class="moon"></div>
-    <div class="kicker">You are invited to the Walima of</div>
+    <div class="kicker">You are invited to the Nikah of</div>
     <div class="who gold-text"><span class="ln">Ammad Arif</span><span class="amp">&amp;</span><span class="ln">Aiza Farooq</span></div>
-    <div class="urdu">انس حسین &nbsp;&amp;&nbsp; ایمن فرخ</div>
+    <div class="urdu">عماد عارف &nbsp;&amp;&nbsp; عائزہ فاروق</div>
     <button class="openbtn" id="openBtn"><span class="dot"></span> Open Invitation</button>
     <div class="tiny">Tap to open</div>
   </div>
@@ -61,22 +61,22 @@ const MARKUP = `
     <svg class="flourish reveal"><use href="#flr"/></svg>
 
     <section class="reveal">
-      <div class="kicker">Walima Reception</div>
-      <p class="invite-line">With the blessings of Allah, we joyfully request the honour of your presence at the Walima of</p>
+      <div class="kicker">Nikah Ceremony</div>
+      <p class="invite-line">With the blessings of Allah, we joyfully request the honour of your presence at the Nikah of</p>
       <div class="names">
         <div class="name gold-text">Ammad Arif</div>
         <span class="amp">&amp;</span>
         <div class="name gold-text">Aiza Farooq</div>
       </div>
-      <div class="urdu-names">انس حسین &nbsp;&amp;&nbsp; ایمن فرخ</div>
+      <div class="urdu-names">عماد عارف &nbsp;&amp;&nbsp; عائزہ فاروق</div>
     </section>
 
     <svg class="flourish reveal"><use href="#flr"/></svg>
 
     <section class="reveal">
       <div class="kicker" id="cdKicker">Save the Date</div>
-      <div class="date-big gold-text">Sunday &middot; 23 August 2026</div>
-      <div class="count" id="count" aria-label="Countdown to the wedding">
+      <div class="date-big gold-text">Friday &middot; 30 October 2026</div>
+      <div class="count" id="count" aria-label="Countdown to the nikah">
         <div class="cbox"><div class="cnum" id="dd">00</div><div class="clab">Days</div></div>
         <div class="cbox"><div class="cnum" id="hh">00</div><div class="clab">Hours</div></div>
         <div class="cbox"><div class="cnum" id="mm">00</div><div class="clab">Minutes</div></div>
@@ -98,16 +98,16 @@ const MARKUP = `
         <span class="corner c3"></span><span class="corner c4"></span>
         <div>
           <div class="detail-lab">Time</div>
-          <div class="detail-val" id="timeVal">8:30 PM sharp</div>
+          <div class="detail-val" id="timeVal">4:00 PM sharp</div>
         </div>
         <svg class="flourish"><use href="#flr"/></svg>
         <div>
           <div class="detail-lab">Venue</div>
-          <div class="detail-val" id="venueName">Four Seasons Banquet Hall</div>
+          <div class="detail-val" id="venueName">The Lounge</div>
           <div class="detail-val" id="venueAddr" style="font-size:16px;color:var(--muted)">Lawn B, Rashid Minhas Road (near Millennium Mall)</div>
         </div>
         <div class="btns">
-          <a class="btn" id="mapBtn" href="https://maps.app.goo.gl/w89sGXJmNiLywHvM6" target="_blank" rel="noopener">◈ View on Map</a>
+          <a class="btn" id="mapBtn" href="https://share.google/lzaYLlUgiovLOl9XC" target="_blank" rel="noopener">◈ View on Map</a>
           <a class="btn" id="calBtn" href="#" target="_blank" rel="noopener">✦ Add to Calendar</a>
         </div>
       </div>
@@ -264,8 +264,8 @@ export default function Page() {
     if (cover) cover.addEventListener("click", coverClick);
     if (muteBtn) muteBtn.addEventListener("click", toggleMute);
 
-    const target = new Date("2026-08-23T20:30:00+05:00").getTime();
-    const over = new Date("2026-08-24T00:00:00+05:00").getTime();
+    const target = new Date("2026-10-30T20:30:00+05:00").getTime();
+    const over = new Date("2026-10-30T23:00:00+05:00").getTime();
     const pad = (x) => (x < 10 ? "0" : "") + x;
     const set = (id, v) => {
       const el = document.getElementById(id);
@@ -309,12 +309,12 @@ export default function Page() {
 
     const calBtn = document.getElementById("calBtn");
     if (calBtn) {
-      const text = encodeURIComponent("Walima of Anas & Aiman");
+      const text = encodeURIComponent("Nikah of Ammad & Aiza");
       const details = encodeURIComponent(
-        "With the blessings of Allah, you are warmly invited to the Walima reception."
+        "With the blessings of Allah, you are warmly invited to the Nikah Ceremony."
       );
-      const location = encodeURIComponent("Four Seasons Banquet Hall, Lawn B, Rashid Minhas Road, near Millennium Mall");
-      const dates = "20260823T153000Z/20260823T183000Z";
+      const location = encodeURIComponent("The Lounge, B-99, 4th Floor and Rooftop, Block H, North Nazimabad Town, Karachi");
+      const dates = "20261030T110000Z/20261030T160000Z";
       calBtn.setAttribute(
         "href",
         "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" +
