@@ -1372,3 +1372,17 @@ footer{text-align:center;padding:22px 0 48px}
 /* full-colour couple illustration (ivory sherwani / maroon lehenga) on the paper */
 .baraat .br-couple{display:block;width:min(54%,178px);height:auto;margin:24px auto 4px;
   filter:drop-shadow(0 8px 16px rgba(80,40,20,.14))}
+.cover .who,
+.cover .who > * {
+  animation: none !important;
+  clip-path: none !important;
+  background: none !important;
+  -webkit-background-clip: border-box !important;
+  background-clip: border-box !important;
+  -webkit-text-fill-color: #f2d98f !important;
+  color: #f2d98f !important;
+  filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
