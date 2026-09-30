@@ -1390,5 +1390,9 @@ main .kicker {
   letter-spacing: 0.3em;
   margin-bottom: 20px;
 }
+.names .amp {
+  font-size: clamp(20px, 4vw, 24px);
+}
+
 
 
