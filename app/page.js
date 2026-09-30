@@ -104,7 +104,7 @@ const MARKUP = `
         <div>
           <div class="detail-lab">Venue</div>
           <div class="detail-val" id="venueName">The Lounge</div>
-          <div class="detail-val" id="venueAddr" style="font-size:16px;color:var(--muted)">B-99, 4th Floor and Rooftop, Block H, North Nazimabad Town, Karachi</div>
+          <div class="detail-val" id="venueAddr" style="font-size:16px;color:var(--muted)">B-99, Rooftop, Block H, North Nazimabad Town, Karachi</div>
         </div>
         <div class="btns">
           <a class="btn" id="mapBtn" href="https://share.google/lzaYLlUgiovLOl9XC" target="_blank" rel="noopener">◈ View on Map</a>
@@ -120,14 +120,14 @@ const MARKUP = `
       <p class="invite-line">For directions or any further details, feel free to call or message us</p>
       <div class="rsvp">
         <div class="rsvp-row">
-          <span class="rsvp-num">0334 3856205</span>
-          <a class="rsvp-chip" href="tel:+923343856205">Call</a>
-          <a class="rsvp-chip" href="https://wa.me/923343856205" target="_blank" rel="noopener">WhatsApp</a>
+          <span class="rsvp-num">0333 2287668</span>
+          <a class="rsvp-chip" href="tel:+923332287668">Call</a>
+          <a class="rsvp-chip" href="https://wa.me/923332287668" target="_blank" rel="noopener">WhatsApp</a>
         </div>
         <div class="rsvp-row">
-          <span class="rsvp-num">0327 8443240</span>
-          <a class="rsvp-chip" href="tel:+923278443240">Call</a>
-          <a class="rsvp-chip" href="https://wa.me/923278443240" target="_blank" rel="noopener">WhatsApp</a>
+          <span class="rsvp-num">0332 3260164</span>
+          <a class="rsvp-chip" href="tel:+923323260164">Call</a>
+          <a class="rsvp-chip" href="https://wa.me/923323260164" target="_blank" rel="noopener">WhatsApp</a>
         </div>
       </div>
     </section>
