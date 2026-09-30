@@ -1385,4 +1385,10 @@ footer{text-align:center;padding:22px 0 48px}
   opacity: 1 !important;
   visibility: visible !important;
 }
+main .kicker {
+  font-size: clamp(17px, 5vw, 24px);
+  letter-spacing: 0.3em;
+  margin-bottom: 20px;
+}
+
 
