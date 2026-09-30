@@ -65,7 +65,7 @@ const MARKUP = `
       <p class="invite-line">With the blessings of Allah, Mr & Mrs. Abdus Salam Arif cordially invites you to the Nikah of their beloved son</p>
       <div class="names">
         <div class="name gold-text">Ammad Arif</div>
-        <span class="amp">&amp;</span>
+        <span class="amp">with;</span>
         <div class="name gold-text">Aiza Farooq</div>
       </div>
       <div class="urdu-names">عماد عارف &nbsp;&amp;&nbsp; عائزہ فاروق</div>
