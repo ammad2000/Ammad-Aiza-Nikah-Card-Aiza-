@@ -43,8 +43,8 @@ const MARKUP = `
   <div class="cover-card">
     <div class="moon"></div>
     <div class="kicker">You are invited to the Nikah of</div>
-    <div class="who gold-text"><span class="ln">Ammad Arif</span><span class="amp">&amp;</span><span class="ln">Aiza Farooq</span></div>
-    <div class="urdu">عماد عارف &nbsp;&amp;&nbsp; عائزہ فاروق</div>
+    <div class="who gold-text"><span class="ln">Aiza Farooq</span><span class="amp">&amp;</span><span class="ln">Ammad Arif</span></div>
+    <div class="urdu">عائزہ فاروق &nbsp;&amp;&nbsp; عماد عارف</div>
     <button class="openbtn" id="openBtn"><span class="dot"></span> Open Invitation</button>
     <div class="tiny">Tap to open</div>
   </div>
@@ -62,13 +62,13 @@ const MARKUP = `
 
     <section class="reveal">
       <div class="kicker">Nikah Ceremony</div>
-      <p class="invite-line">With the blessings of Allah, Mr & Mrs. Abdus Salam Arif cordially invite you to the Nikah of their beloved son</p>
+      <p class="invite-line">With the blessings of Allah, Mr & Mrs. Umer Farooq cordially invite you to the Nikah of their beloved daughter</p>
       <div class="names">
-        <div class="name gold-text">Ammad Arif</div>
-        <span class="amp">with</span>
         <div class="name gold-text">Aiza Farooq</div>
+        <span class="amp">with</span>
+        <div class="name gold-text">Ammad Arif</div>
       </div>
-      <div class="urdu-names">عماد عارف &nbsp;&amp;&nbsp; عائزہ فاروق</div>
+      <div class="urdu-names"> عائزہ فاروق &nbsp;&amp;&nbsp; عماد عارف</div>
     </section>
 
     <svg class="flourish reveal"><use href="#flr"/></svg>
@@ -120,14 +120,14 @@ const MARKUP = `
       <p class="invite-line">For directions or any further details, feel free to call or message us</p>
       <div class="rsvp">
         <div class="rsvp-row">
-          <span class="rsvp-num">0333 2287668</span>
-          <a class="rsvp-chip" href="tel:+923332287668">Call</a>
-          <a class="rsvp-chip" href="https://wa.me/923332287668" target="_blank" rel="noopener">WhatsApp</a>
+          <span class="rsvp-num">0333 2110780</span>
+          <a class="rsvp-chip" href="tel:+923332110780">Call</a>
+          <a class="rsvp-chip" href="https://wa.me/923332110780" target="_blank" rel="noopener">WhatsApp</a>
         </div>
         <div class="rsvp-row">
-          <span class="rsvp-num">0332 3260164</span>
-          <a class="rsvp-chip" href="tel:+923323260164">Call</a>
-          <a class="rsvp-chip" href="https://wa.me/923323260164" target="_blank" rel="noopener">WhatsApp</a>
+          <span class="rsvp-num">0335 2947813</span>
+          <a class="rsvp-chip" href="tel:+923352947813">Call</a>
+          <a class="rsvp-chip" href="https://wa.me/923352947813" target="_blank" rel="noopener">WhatsApp</a>
         </div>
       </div>
     </section>
