@@ -77,7 +77,7 @@ export const INVITATION = `
     <svg class="flourish reveal"><use href="#flr"/></svg>
     <section class="reveal">
       <div class="kicker">Nikah Ceremony</div>
-      <p class="invite-line">With the blessings of Allah, we joyfully request the honour of your presence at the Nikah of</p>
+      <p class="invite-line">With the blessings of Allah, Mr & Mrs. Abdus Salam Arif cordially invites you to the Nikah of their beloved son</p>
       <div class="names">
         <div class="name gold-text">Ammad Arif</div>
         <span class="amp">&amp;</span>
