@@ -1393,6 +1393,26 @@ main .kicker {
 .names .amp {
   font-size: clamp(20px, 4vw, 24px);
 }
+/* ============================================================
+   HOST NAME (Mr & Mrs. Abdus Salam Arif) — edit values here
+   ============================================================ */
+:root{
+  --host-font: "Cinzel", serif;   /* try "Playfair Display", "Amiri", "Great Vibes" */
+  --host-weight: 600;             /* Cinzel loads 400/500/600 only, so 600 is the boldest */
+  --host-color: #f9ecbe;          /* gold-bright, or use #e8c66d for plain gold */
+  --host-spacing: 0.06em;
+  --host-size: 0.92em;            /* Cinzel runs wide, so slightly smaller keeps it balanced */
+}
+
+.host-name{
+  font-family: var(--host-font);
+  font-weight: var(--host-weight);
+  color: var(--host-color);
+  letter-spacing: var(--host-spacing);
+  font-size: var(--host-size);
+  font-style: normal;
+  display: inline-block;
+}
 
 
 
